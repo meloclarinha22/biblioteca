@@ -36,27 +36,27 @@ verificar historico de emprestimo
  -anoPublicacao: int
  +emprestar(): void
  +devolver(): void
-* +reservar(): void
+ +reservar(): void
 
 **Classe: usuario**
-* -idUsuario: string
-* -nome: string
-* -telefone: string
-* -email: string
-* -endereco: string
-* +registrar()
-* +atualizarInfos()
-* +solicitarEmprestimo()
-* +devolverLivro()
-* *Relacionamento com Emprestimo: possuir*
+ -idUsuario: string
+ -nome: string
+ -telefone: string
+ -email: string
+ -endereco: string
+ +registrar()
+ +atualizarInfos()
+ +solicitarEmprestimo()
+ +devolverLivro()
+*Relacionamento com Emprestimo: possuir*
 
 **Classe: Emprestimo**
-* -dataEmprestimo: date
-* -dataDevolucao: date
-* -status: string
-* +calcularMulta(): double
-* +renovarEmprestimo(): void
-* +finalizarEmprestimo(): void
+ -dataEmprestimo: date
+ -dataDevolucao: date
+ -status: string
+ +calcularMulta(): double
+ +renovarEmprestimo(): void
+ +finalizarEmprestimo(): void
 
 **Relacionamentos:**
 * `bibliotecario` **possui** `usuario`
