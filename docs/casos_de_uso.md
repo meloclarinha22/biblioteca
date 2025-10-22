@@ -25,8 +25,8 @@ verificar historico de emprestimo
  +removerLivro()
  +atualizarInfosLivros()
  +processarEmprestimo()
-+processarDevolucao()
-* *Relacionamento com usuario: possui*
+ +processarDevolucao()
+ *Relacionamento com usuario: possui*
 
 **Classe: livro**
  -titulo: string
@@ -48,7 +48,7 @@ verificar historico de emprestimo
  +atualizarInfos()
  +solicitarEmprestimo()
  +devolverLivro()
-*Relacionamento com Emprestimo: possuir*
+ *Relacionamento com Emprestimo: possuir*
 
 **Classe: Emprestimo**
  -dataEmprestimo: date
